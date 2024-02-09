@@ -27,21 +27,12 @@ function Header() {
     const SosMes = () => {
         speak({ text: 'Sos message', lang: 'en' });
     }
-    const chatbotclic = () => {
-        speak({ text: 'Ai Chat Bot', lang: 'en' });
-    }
-
+    
     return (
 
         <div className="button-container">
             <div className="button-pair">
-                <Link to="/chatbot" className="nav-button" style={{ fontSize: '30px', textAlign: 'center',paddingTop:'30px' }} onClick={chatbotclic}>
-                <FontAwesomeIcon icon={faComments} style={{ marginRight: '8px', color: 'white' }} />
-                    Chat Bot</Link>
-                
-            </div>
-            <div className="button-pair">
-        <Link to="/sos-message" className="nav-button" style={{ fontSize: '30px', textAlign: 'center',paddingTop:'30px' }} onClick={SosMes}>
+        <Link to="/sos" className="nav-button" style={{ fontSize: '30px', textAlign: 'center',paddingTop:'30px' }} onClick={SosMes}>
             <FontAwesomeIcon icon={faExclamationCircle} style={{ marginRight: '8px', color: 'white' }} />
             SOS Messages
         </Link>
@@ -51,11 +42,11 @@ function Header() {
         </Link>
     </div>
     <div className="button-pair">
-        <Link to="/object-detection" className="nav-button" style={{ fontSize: '30px', textAlign: 'center',paddingTop:'30px' }} onClick={objectDetectionClick}>
+        <Link to="/object detection" className="nav-button" style={{ fontSize: '30px', textAlign: 'center',paddingTop:'30px' }} onClick={objectDetectionClick}>
             <FontAwesomeIcon icon={faCamera} style={{ marginRight: '8px', color: 'white' }} />
             Object Detection
         </Link>
-        <Link to="/speech-to-text" className="nav-button" style={{ fontSize: '30px', textAlign: 'center',paddingTop:'30px' }} onClick={Speechtotext}>
+        <Link to="/speech to text" className="nav-button" style={{ fontSize: '30px', textAlign: 'center',paddingTop:'30px' }} onClick={Speechtotext}>
             <FontAwesomeIcon icon={faMicrophone} style={{ marginRight: '8px', color: 'white' }} />
             Speech To Text
         </Link>

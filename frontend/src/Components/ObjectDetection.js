@@ -153,7 +153,7 @@ function ObjectDetection() {
 
       <div className='obj-button'>
       {startcapture ? 
-      (<button className='button-container' onClick={(e)=>{ SpeechRecognition.startListening(e); toggleStart(e)}}>Start</button>):
+      (<button className='button-container' onClick={(e)=>{ SpeechRecognition.startListening(e); toggleStart(e)}}>Start</button> ):
       <button  className='button-container'  onClick={(e)=>{ SpeechRecognition.stopListening(e); toggleStop(e)}}>Stop</button>
       }
 

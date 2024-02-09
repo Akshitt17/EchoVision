@@ -11,8 +11,8 @@ const port = 3001;
 app.use(cors());
 
 // Twilio credentials
-const accountSid = process.env.REACT_APP_STD_KIT_TOKEN;;
-const authToken = process.env.REACT_APP_AUTH_TOKEN;
+const accountSid = 'AC0bf70c869fcc10a98aa8ded7b4fc9888';;
+const authToken = '55503185a0282e45f0a65f6808e719e0';
 const client = new twilio(accountSid, authToken);
 
 app.use(bodyParser.urlencoded({ extended: false }));

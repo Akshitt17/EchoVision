@@ -45,7 +45,9 @@ Be aware of your surroundings through AI-powered object identification.(YOLOv3 p
 
 * Text-to-Speech:📖
 Receive clear, audible feedback and instructions.(react -use -clipboard,react speech kit)
- 
+
+* Ai Chat Bot :👀 
+  With use of Google Gemini pro chat bot which can communicate with voice.(Google Gemini Pro ,Streamlit, PyCharm) 
 
 ## Technology Stack 🏁
 
@@ -66,14 +68,9 @@ Receive clear, audible feedback and instructions.(react -use -clipboard,react sp
 
 ## Application Preview 👀
 
-![image]()
-![image]()
-![image]()
+![image](![WhatsApp Image 2024-02-04 at 10 58 32 AM](https://github.com/shadwar123/Nit_B_hack/assets/110903269/cfab50eb-01dc-4638-9d25-a220e860a2df)
 
-## Block Diagram
-  ![diagram-export-11-5-2023-10_19_08-AM]()
 
-## Presentation
 
 ## Contributors ✨
 
@@ -92,5 +89,3 @@ Receive clear, audible feedback and instructions.(react -use -clipboard,react sp
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -
-
-

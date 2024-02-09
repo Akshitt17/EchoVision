@@ -54,7 +54,7 @@ const App = () => {
       <nav className="navbar">
       <div className="navbar-title" style={{ fontWeight: 'bold' }}>
       <span className="eye-icon" role="img" aria-label="Eye Icon">&#x1F441;</span>
-        Blind Assistant</div>
+        Eyes For Blinds</div>
       </nav>
       
 
@@ -63,16 +63,16 @@ const App = () => {
     <FontAwesomeIcon icon={faMicrophone} style={{ marginRight: '8px', color: 'white' }} />
     Start Voice Assistant
   </button>
+  <p id="transcript">Transcript: {transcript}</p>
 </div>
 
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/sos-message" element={<Sosmess/>} />
+        <Route path="/sos" element={<Sosmess/>} />
         <Route path="/navigation" element={<Navigation/>} />
-        <Route path="/object-detection" element={<ObjectDetection/>} />
-        <Route path="/speech-to-text" element={<SpeechToText/>} />
-        <Route path="/chatbot" element={<Chartbot/>} />
+        <Route path="/object detection" element={<ObjectDetection/>} />
+        <Route path="/speech to text" element={<SpeechToText/>} />
       </Routes>
 
 
